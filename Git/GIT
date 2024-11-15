@@ -27,6 +27,12 @@ Git help : git <<command>> -help, git help –all [provide entire help content].
 
 Git branch :
     • Create New branch : git branch <<branch name>> : git branch naveen
+<<<<<<< HEAD
+=======
+    • git branch : to list the branches available.
+    • Git checkout <<branch name>> : to switch between branches.
+    • Git checkout -b hotfix : this will cut the branch from the current branch, ideally will go to the master branch and then cut the hot fix branch.
+>>>>>>> master
     • 
 
 
