@@ -8,11 +8,29 @@ Create a folder and initiliase the GIT.
     • git init
 
 Git Staging Environment. “git add <<file names>>” 
-    • If the file name is not provided all the files will be added to the staging env.
+    • To add all the files we need to append “--all” at the end.
     • Multiple files can be added with comma seperated files names.
     • Specifing the file name will allow us to add specific file to the staging env.
 Staging env is the something will help to track the updated of the file.
 
+Git status:
+    • It will provide the changes that are ready to commit.
+
+Git commit:
+    • Git commit -m “<<Commit message>>” - will do the commit.
+    • Git commit -a  “<<Commit message>>” - “-a” will allow to commit changes directly. -> provide the comment and the ctrl+X
+
+Git commit log:
+    • will provide the log history.
+
+Git help : git <<command>> -help, git help –all [provide entire help content].
+
+Git branch :
+    • Create New branch : git branch <<branch name>> : git branch naveen
+    • git branch : to list the branches available.
+    • Git checkout <<branch name>> : to switch between branches.
+    • Git checkout -b hotfix : this will cut the branch from the current branch, ideally will go to the master branch and then cut the hot fix branch.
+    • 
 
 
 
