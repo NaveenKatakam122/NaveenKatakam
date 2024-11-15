@@ -18,7 +18,7 @@ Git status:
 
 Git commit:
     • Git commit -m “<<Commit message>>” - will do the commit.
-    • Git commit -a -m “<<Commit message>>” - “-a” will allow to commit changes directly.
+    • Git commit -a  “<<Commit message>>” - “-a” will allow to commit changes directly. -> provide the comment and the ctrl+X
 
 Git commit log:
     • will provide the log history.
